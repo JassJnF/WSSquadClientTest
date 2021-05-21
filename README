@@ -3,6 +3,9 @@ To run the server, get into the directory of the mvnw in a console and write:
 
 To make a request get into the directory of the mvnw in a console and write:
 
+NOTE: In WINDOWS OS, add a W to mvn command, so it will be mvnw exec:java -Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquad INTEGRATIONS"
+
+
 To get members of a team:
 mvn exec:java -Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquad INTEGRATIONS"
 
