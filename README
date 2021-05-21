@@ -4,13 +4,13 @@ To run the server, get into the directory of the mvnw in a console and write:
 To make a request get into the directory of the mvnw in a console and write:
 
 To get members of a team:
--Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquad INTEGRATIONS"
+mvn exec:java -Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquad INTEGRATIONS"
 
 To get teams of a member:
--Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquadsformember jasson"             
+mvn exec:java -Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquadsformember jasson"             
 
 To add a member to the team PUPS:
--Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="addmember dmitry PUPS"
+mvn exec:java -Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="addmember dmitry PUPS"
 
 Possible teams:
 PUPS
