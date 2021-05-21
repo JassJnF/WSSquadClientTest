@@ -1,0 +1,21 @@
+To run the server, get into the directory of the mvnw in a console and write:
+./mvnw spring-boot:run
+
+To make a request get into the directory of the mvnw in a console and write:
+
+To get members of a team:
+-Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquad INTEGRATIONS"
+
+To get teams of a member:
+-Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="getsquadsformember jasson"             
+
+To add a member to the team PUPS:
+-Dexec.mainClass=com.example.OTSquadClient.OtSquadClientApplication -Dexec.args="addmember dmitry PUPS"
+
+Possible teams:
+PUPS
+INTEGRATIONS
+SUPER AWESOME SQUAD
+
+Possible members:
+request members from integrations team.
